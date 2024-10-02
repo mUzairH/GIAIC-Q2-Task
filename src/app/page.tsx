@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import developerImage from '../data/developer-image.png';
 
-export default function Home() {
+export default function Home() {    
   return (
     <div className="parent">
       <div className="description">
