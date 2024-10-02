@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10%;
+    gap: 10%;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10%;
+    background-color: rgb(201, 245, 245);
+    border-radius: 100px;
+}
+
+.description{
+  width: 65%;
+}
+
+.image{
+  width: 35%;
+}
